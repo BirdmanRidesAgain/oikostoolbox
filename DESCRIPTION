@@ -1,0 +1,14 @@
+Package: oikostoolbox
+Title: Runs Standardized Popgen Analyses for Oikos Genomics
+Version: 1.0.0.0
+Authors@R: 
+    person(given = "Keiler", family = "Collier", 
+          email= "kacollier@reneco.org", role = c("aut", "cre"), 
+          comment = c(ORCID = "0000-0002-4057-4282"))
+Maintainer: Keiler Collier <kacollier@reneco.orgt>
+Depends: R (>= 4.0.0), tidyverse (>= 2.0.0)
+Description: This is a package that collects and standardizes all of Oikos Genomics' haphazard R scripts.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
