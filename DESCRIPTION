@@ -6,11 +6,15 @@ Authors@R:
           email= "kacollier@reneco.org", role = c("aut", "cre"), 
           comment = c(ORCID = "0000-0002-4057-4282"))
 Maintainer: Keiler Collier <kacollier@reneco.orgt>
-Depends: R (>= 4.0.0), tidyverse (>= 2.0.0)
-Description: This is a package that collects and standardizes all of Oikos Genomics' haphazard R scripts.
+Depends: R (>= 4.0.0), tidyverse (>= 2.0.0), seqinr (>= 4.2.0)
+Description: This is a package that visualizes Oikos' genomics de-novo genome assemblies.
 License: Apache License (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://github.com/BirdmanRidesAgain/oikostoolbox
 BugReports: https://github.com/BirdmanRidesAgain/oikostoolbox/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
